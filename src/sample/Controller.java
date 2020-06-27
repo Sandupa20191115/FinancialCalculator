@@ -1,4 +1,8 @@
 package sample;
 
-public class Controller {
+import javafx.fxml.FXML;
+
+public class Controller<JFXTabPane> {
+    @FXML
+    private JFXTabPane tabPane;
 }
